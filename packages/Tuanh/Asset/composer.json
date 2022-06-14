@@ -1,0 +1,23 @@
+{
+    "name": "tuanh/asset",
+    "description": "asset manager",
+    "type": "project",
+    "license": "stable",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tuanh\\Asset\\": "packages/tuanh/asset/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "ngonguyentuanhhon",
+            "email": "ngonguyentuanhhon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

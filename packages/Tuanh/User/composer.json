@@ -1,0 +1,23 @@
+{
+    "name": "tuanh/user",
+    "description": "user manager",
+    "type": "project",
+    "license": "stable",
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tuanh\\User\\": "packages/tuanh/user/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "ngonguyentuanhhon",
+            "email": "ngonguyentuanhhon@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
